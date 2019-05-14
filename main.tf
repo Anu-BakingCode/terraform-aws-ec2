@@ -27,8 +27,8 @@ resource "aws_instance" "instance" {
   }
 }	
 
-resource "aws_eip" "eip-one" {
-  instance = "${aws_instance.instance.id}"
-  vpc      = true
-}
+#resource "aws_eip" "eip-one" {
+#  instance = "${aws_instance.instance.id}"
+#  vpc      = true
+#}
 
