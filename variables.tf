@@ -3,7 +3,7 @@ variable "instance_count"{
 }
 
 variable "ami"{
-	defualt = ""
+	default = "ami-0a313d6098716f372"
 }
 
 variable "instance_type" {
